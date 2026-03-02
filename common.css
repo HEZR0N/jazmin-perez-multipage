@@ -121,6 +121,22 @@ header a {
     display: flex;
     justify-content: center;
 }
+
+/* about page image gallery */
+.about-images {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.about-images img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 4px;
+    background: white;
+}
 .row {
     max-width: 80ch;
     align-items: center;
